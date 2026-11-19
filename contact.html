@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact BuildVista UAE for project brief questions and course prototype support.">
+  <title>Contact | BuildVista UAE</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">BuildVista</a> / Contact</p>
+        <p class="eyebrow">Contact BuildVista</p>
+        <h1>Bring the question. We’ll bring structure.</h1>
+        <p class="lede">Use the contact form for a project question, package clarification, or feedback about the course prototype.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="callout" style="margin-bottom: 28px">
+          <span class="callout-icon" aria-hidden="true">i</span>
+          <div><strong>Fictional course business</strong><p>BuildVista is a made-up business created for the MIST 280 project. The group email below is used for the assignment; the phone and address are demonstration details only.</p></div>
+        </div>
+        <div class="contact-grid" style="margin-bottom: 34px">
+          <article class="contact-card"><div class="contact-icon" aria-hidden="true">@</div><h3>Email</h3><p>Verified group inbox</p><a href="mailto:202202311@uae.ae.ac">202202311@uae.ae.ac</a></article>
+          <article class="contact-card"><div class="contact-icon" aria-hidden="true">☎</div><h3>Phone</h3><p>Fictional project contact</p><a href="tel:+97125550148">+971 2 555 0148</a></article>
+          <article class="contact-card"><div class="contact-icon" aria-hidden="true">⌖</div><h3>Studio</h3><p>Fictional business address for the project</p><strong style="display:block;margin-top:9px;font-size:13px;color:var(--navy-900)">BuildVista UAE Studio<br>Abu Dhabi, United Arab Emirates</strong></article>
+        </div>
+
+        <div class="content-grid">
+          <div class="form-card">
+            <p class="eyebrow">Send a message</p>
+            <h3>How can we help?</h3>
+            <p>We’ll use your message to demonstrate the contact workflow. No live support inbox is connected in this prototype.</p>
+            <form data-demo-form data-success-target="contact-success">
+              <div class="form-grid">
+                <div class="field"><label for="contact-name">Full name</label><input id="contact-name" type="text" required placeholder="Your name"></div>
+                <div class="field"><label for="contact-email">Email address</label><input id="contact-email" type="email" required placeholder="name@example.com"></div>
+                <div class="field full"><label for="contact-topic">Topic</label><select id="contact-topic" required><option value="">Choose a topic</option><option>Project brief</option><option>Service package</option><option>Professional verification</option><option>Returns or service guarantee</option><option>Employment</option><option>Other</option></select></div>
+                <div class="field full"><label for="contact-message">Message</label><textarea id="contact-message" required placeholder="Tell us what you need to understand..."></textarea></div>
+              </div>
+              <div class="form-footer"><span class="form-note">We never ask for a real card number in this prototype.</span><button class="button button-primary" type="submit">Send message <span aria-hidden="true">→</span></button></div>
+            </form>
+            <div class="form-success" id="contact-success" role="status"><strong>Thanks — your message is ready.</strong> The prototype has confirmed the form flow. A real implementation would route it to the checked group inbox.</div>
+          </div>
+          <aside class="side-panel">
+            <p class="eyebrow">Opening hours</p>
+            <h3>Make space for the important details.</h3>
+            <p>For the course concept, the proposed support window is designed around UAE working hours.</p>
+            <ul class="check-list"><li>Monday–Friday: 9:00 AM–6:00 PM GST</li><li>Saturday: 10:00 AM–2:00 PM GST</li><li>Sunday: Closed</li></ul>
+            <div class="section-actions"><a class="button button-light" href="faq.html">Read the FAQ <span aria-hidden="true">→</span></a></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
+
