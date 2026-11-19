@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Share feedback about the BuildVista design-to-build marketplace prototype.">
+  <title>Customer Feedback | BuildVista UAE</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="feedback">
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">BuildVista</a> / Customer Feedback</p>
+        <p class="eyebrow">Customer feedback</p>
+        <h1>Tell us what made the decision easier.</h1>
+        <p class="lede">A useful marketplace learns from the project journey: clarity of scope, quality of communication, usefulness of comparisons, and confidence in the next step.</p>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container content-grid">
+        <div class="form-card">
+          <p class="eyebrow">Share your experience</p>
+          <h3>How did the prototype feel?</h3>
+          <p>Use the rating and comment to demonstrate the feedback workflow. No public review will be published from this course prototype.</p>
+          <form data-demo-form data-success-target="feedback-success">
+            <div class="form-grid">
+              <div class="field"><label for="feedback-name">Name</label><input id="feedback-name" type="text" placeholder="Your name" required></div>
+              <div class="field"><label for="feedback-email">Email address</label><input id="feedback-email" type="email" placeholder="name@example.com" required></div>
+              <fieldset class="fieldset full"><legend>Rating</legend><div class="rating-row"><input id="star-5" type="radio" name="rating" value="5" required><label for="star-5" title="5 out of 5">★</label><input id="star-4" type="radio" name="rating" value="4"><label for="star-4" title="4 out of 5">★</label><input id="star-3" type="radio" name="rating" value="3"><label for="star-3" title="3 out of 5">★</label><input id="star-2" type="radio" name="rating" value="2"><label for="star-2" title="2 out of 5">★</label><input id="star-1" type="radio" name="rating" value="1"><label for="star-1" title="1 out of 5">★</label></div></fieldset>
+              <div class="field full"><label for="feedback-topic">What should we improve?</label><select id="feedback-topic" required><option value="">Choose one</option><option>Design Studio</option><option>Service packages</option><option>Request form</option><option>Professional comparison</option><option>Trust and policies</option><option>Navigation and accessibility</option></select></div>
+              <div class="field full"><label for="feedback-message">Your feedback</label><textarea id="feedback-message" placeholder="What was clear? What would you change?" required></textarea></div>
+              <label class="check-option full"><input type="checkbox" required> I understand this is a course prototype and my feedback is for demonstration only.</label>
+            </div>
+            <div class="form-footer"><span class="form-note">Rating is collected for display only.</span><button class="button button-primary" type="submit">Submit feedback <span aria-hidden="true">→</span></button></div>
+          </form>
+          <div class="form-success" id="feedback-success" role="status"><strong>Thank you for the thoughtful feedback.</strong> The rating flow is complete. A commercial implementation would confirm how and where reviews are displayed.</div>
+        </div>
+
+        <aside class="side-panel">
+          <p class="eyebrow">What we measure</p>
+          <h3>Feedback should improve the journey.</h3>
+          <p>The proposal focuses on project-related, verified feedback rather than invented testimonials.</p>
+          <ul class="check-list"><li>Communication clarity</li><li>Scope definition</li><li>Timeliness</li><li>Quality of work</li><li>Aftercare and follow-up</li></ul>
+          <div class="section-actions"><a class="button button-light" href="privacy.html">How data is protected <span aria-hidden="true">→</span></a></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="mini-quote"><p>“A review should be tied to a real interaction, broken down into useful parts, and open to correction when the record is wrong.”</p><span>BuildVista trust principle</span></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
+
